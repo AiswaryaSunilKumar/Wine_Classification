@@ -1,7 +1,4 @@
 
-
- ''' CLASSIFICATION OF WINE QUALITY - BY AISWARYA SUNILKUMAR AND SREYAS K SREEKUMAR'''
-
  
 import numpy as np
 import matplotlib.pyplot as plt  
@@ -267,4 +264,5 @@ l=sorted(l)
 hehe=['BaseAcc','OverSample','HyperTunin','DropFeature','CrossValScor']
 barplot=plt.bar(x=hehe,height=l,fc='lightgray',ec='black')
 plt.bar_label(barplot,labels=l,label_type='edge')
+
 plt.show()
