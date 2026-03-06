@@ -114,12 +114,6 @@ This resulted in improved accuracy compared to the base model.
 
 ---
 
-## Removing Negatively Correlated Features
-
-The feature **pH** was identified as negatively correlated with several key features.
-After dropping pH, reapplying oversampling, and re-tuning, the accuracy increased further.
-
----
 
 ## Final Results
 
